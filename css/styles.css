@@ -53,8 +53,30 @@ body   {
 /* Nav Bar Styles */
 
 /* Explore Styles */
-.explore{
+
+.exploreSection{
   margin: 16px;
+}
+
+.exploreHeading{
+  display: grid; 
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 100%;
+  margin: 16px 0px 36px 0px;
+}
+
+.exploreHeading div img{
+  height: 120px;
+  width: 80%;
+  opacity: 0.8;
+}
+
+.exploreHeading div h3{
+  font-size: 28px;
+  line-height: 1.5em;
+}
+
+.explore{
   height: 360px;
   width: 320px;
   background-color: white;
