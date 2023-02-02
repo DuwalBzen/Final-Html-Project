@@ -81,6 +81,7 @@ body   {
   width: 320px;
   background-color: white;
   border-radius: 14px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .explore img{
@@ -129,6 +130,50 @@ body   {
 }
 /* Explore Styles */
 
+
+/* Subscribe Section Styles */
+
+.sectionSubscribe{
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+.sectionSubscribe div{
+  text-align: center;
+  background-color: #FFE5D1;
+  height: 400px;
+  width: 60%;
+  display: table-cell;
+  justify-content: center;
+  vertical-align: middle;
+  border-radius: 18px;
+}
+
+.sectionSubscribe div h1{
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
+.sectionSubscribe div p{
+  margin-bottom: 42px;
+}
+
+.button {
+  background-image: linear-gradient(to right, #DF610C , #FB9746);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Subscribe Section Styles */
 
 
 /* Footer Styles */
