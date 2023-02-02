@@ -11,10 +11,25 @@ body   {
   z-index: 1;
 }
 
-.navigation_bar{
+.navigationBar{
   height: 450px;
   width: 100%;
+  align-content: center;
 }
+
+.navLogo{
+  padding-left: 52px;
+  height: 70px;
+  width: 200px;
+}
+
+/* .menuItems:nth-of-type(2) {
+  padding-top: 40px;
+ }
+
+.menuItems:nth-of-type(3) {
+  margin-top: 40px;
+ }; */
 
 .menuItems{
   flex-wrap: wrap;
@@ -23,13 +38,13 @@ body   {
 }
 
 
-.navigation_bar div {     
+.navigationBar div {     
 	display: flex;  
   justify-content: space-between; 
   z-index: 2;
 }  
 
-.navigation_bar div a {  
+.navigationBar div a {  
 	color: blue;  
 	text-decoration: none; 
   padding: 0 20px 0 20px;
@@ -63,6 +78,11 @@ body   {
     margin: 0;
   }
 
+  .footerLogo{
+    padding-left: 52px;
+    height: 75px;
+    width: 200px;
+  }
  
   .copyright {
     padding: 0.3em 1em;
