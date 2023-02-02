@@ -1,8 +1,9 @@
 body   {  
-	font-family: sans-serif;  
+	font-family: sans-serif; 
+  background-color: #F9F9F9; 
 }  
 
-/* Navigation Bar Styling */
+/* Nav Bar Styles */
 .bannerImage{
   margin-top: -8px;
   height: 450px;
@@ -49,11 +50,66 @@ body   {
 	text-decoration: none; 
   padding: 0 20px 0 20px;
 }  
-/* Navigation Bar Styling */
+/* Nav Bar Styles */
+
+/* Explore Styles */
+.explore{
+  margin: 16px;
+  height: 360px;
+  width: 320px;
+  background-color: white;
+  border-radius: 14px;
+}
+
+.explore img{
+  height: 200px;
+  width: 300px;
+  border-radius: 14px;
+  margin: 10px 0px 6px 10px;
+}
+
+.explore h4{
+  color: black;
+  margin-left: 16px;
+}
+
+.explore p{
+  color: #919999;
+  margin-left: 16px;
+}
+
+.placeRating{
+  backdrop-filter: blur(6px);
+  display: flex;
+  position: absolute;
+  margin: 10px 0px 0px 240px;
+  z-index: 1;
+  border-top-right-radius: 14px;
+}
+
+.placeImage img{
+  position: absolute;
+  z-index: 0;
+}
+
+.placeImage p{
+ color: white;
+ padding-right: 10px;
+}
+
+.placeImage{
+  height: 200px;
+}
+
+.placeRating img{
+  height: 24px;
+  width: 24px;
+}
+/* Explore Styles */
 
 
-/*footer*/
 
+/* Footer Styles */
   .footerPrimary{
    display: grid; 
    grid-template-columns: 30% 17% 17% 17% 17%;
