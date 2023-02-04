@@ -159,6 +159,40 @@ body   {
 }
 /* Explore Styles */
 
+/* Review Styles */
+.reviewHeading {
+  text-align: center;
+}
+
+.sectionReview{
+ margin: 32px 0px 22px 0px;
+}
+
+.reviewHeading h2 {
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
+.customerFeedbaks{
+  position: relative;
+  display: grid; 
+  grid-template-columns: 45% 50%;
+  grid-template-rows: 100%;
+  margin: 124px 32px 124px 10%;
+}
+
+.reviewProfile{
+  /* text-align: right; */
+}
+
+.customerFeedbaks img{
+  height: 420px;
+  width: 380px;
+ 
+}
+
+/* Review Styles */
+
 
 /* Subscribe Section Styles */
 
