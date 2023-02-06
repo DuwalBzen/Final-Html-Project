@@ -99,7 +99,7 @@ body   {
   display: grid; 
   grid-template-columns: 25% 75%;
   grid-template-rows: 100%;
-  margin: 16px 0px 36px 0px;
+  margin: 16px 0px 36px 22px;
 }
 
 .exploreHeading div img{
@@ -115,18 +115,32 @@ body   {
 }
 
 .explore{
+  display: grid;
+  display: inline-grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  grid-row-gap: 26px;
+  grid-column-gap: 36px;
+  margin-left: 50px;
+}
+
+.placeInfo{
   height: 360px;
-  width: 320px;
+  width: 326px;
   background-color: white;
   border-radius: 14px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.explore img{
+.bannerImg img{
   height: 200px;
   width: 300px;
   border-radius: 14px;
-  margin: 10px 0px 6px 10px;
+  margin:10px 12px 6px 12px;
+}
+
+.placeImage{
+  height: 200px;
+  width: 300px;
 }
 
 .explore h4{
@@ -143,12 +157,12 @@ body   {
   backdrop-filter: blur(6px);
   display: flex;
   position: absolute;
-  margin: 10px 0px 0px 240px;
+  margin: 10px 0px 0px 218px;
   z-index: 1;
   border-top-right-radius: 14px;
 }
 
-.placeImage img{
+.bannerImg{
   position: absolute;
   z-index: 0;
 }
@@ -158,15 +172,17 @@ body   {
  padding-right: 10px;
 }
 
-.placeImage{
-  height: 200px;
-}
-
 .placeRating img{
   height: 24px;
   width: 24px;
 }
+
+.placesDesc{
+  z-index: 2;
+}
 /* Explore Styles */
+
+
 
 /* Review Styles */
 .reviewHeading {
