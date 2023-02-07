@@ -173,19 +173,18 @@ a:link { text-decoration: none; }
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
+
 .bannerImg img{
   height: 200px;
   width: 300px;
   border-radius: 14px;
   margin:10px 12px 6px 12px;
-  /* transform-origin: 65% 75%;
-  transition: transform .25s, visibility .25s ease-in; */
+  transition: all ease-in-out .4s;
 }
 
-.bannerImg img:hover {
-  transform: scale(1.2);
-  transition: transform 0.3s;
-}
+.bannerImg img:hover{
+    transform: scale(1.13) rotate(2deg);
+  }
 
 /* .bannerImg:hover img {
   transform: scale(2);
