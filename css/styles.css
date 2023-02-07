@@ -123,8 +123,12 @@ body   {
   margin-left: 50px;
 }
 
+.placesDesc h4{
+  padding-top: 12px;
+}
+
 .placeInfo{
-  height: 360px;
+  height: 320px;
   width: 326px;
   background-color: white;
   border-radius: 14px;
@@ -136,7 +140,13 @@ body   {
   width: 300px;
   border-radius: 14px;
   margin:10px 12px 6px 12px;
+  /* transform-origin: 65% 75%;
+  transition: transform .25s, visibility .25s ease-in; */
 }
+
+/* .bannerImg:hover img {
+  transform: scale(2);
+} */
 
 .placeImage{
   height: 200px;
@@ -190,7 +200,7 @@ body   {
 }
 
 .sectionReview{
- margin: 32px 0px 22px 0px;
+ margin: 62px 0px 22px 0px;
 }
 
 .reviewHeading h2 {
