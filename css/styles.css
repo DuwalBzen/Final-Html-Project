@@ -411,6 +411,15 @@ input[type=email] {
 
 /* Detail Page Styles */
 
+.destinationHeading{
+  display: flex;
+  justify-content: space-between;
+}
+
+.destinationHeading h5{
+  color: #919999;
+}
+
 iframe{
   width: 100vw;
   height: calc(100vw/1.77);
@@ -418,7 +427,6 @@ iframe{
 
  .destinationDescription{
   padding-bottom: 32px;
-
  }
 
  .destinationDescription{
@@ -450,8 +458,7 @@ iframe{
  -webkit-background-clip: text;
  -webkit-text-fill-color: transparent;
  animation: textclip 2s linear infinite;
- display: inline-block;
-  
+ display: inline-block; 
 }
 
  /* Detail Page Styles */
