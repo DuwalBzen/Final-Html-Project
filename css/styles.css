@@ -209,7 +209,7 @@ a:link { text-decoration: none; }
   backdrop-filter: blur(6px);
   display: flex;
   position: absolute;
-  margin: 10px 0px 0px 218px;
+  margin: 10px 0px 0px 222px;
   z-index: 1;
   border-top-right-radius: 14px;
 }
@@ -227,6 +227,8 @@ a:link { text-decoration: none; }
 .placeRating img{
   height: 24px;
   width: 24px;
+  margin-top: 12px;
+  padding-left: 14px;
 }
 
 .placesDesc{
